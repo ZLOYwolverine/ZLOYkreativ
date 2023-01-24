@@ -1,0 +1,129 @@
+@import url(font.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Raleway-Medium';
+}
+
+.container{
+    width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.nav__content{
+    display: flex;
+    padding: 40px 0 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+    gap: 45px;
+}
+
+.nav__list-link{
+    font-family: 'Raleway-Bold';
+    font-size: 18px;
+    line-height: 23px;
+    color: #101C02;
+}
+
+.nav__list-link:hover{
+    color: #418A1C;
+}
+
+.btn{
+    background: #000;
+    color: white;
+    padding: 20px 30px;
+    box-shadow: 8px 8px 0px #51C815;
+}
+
+.header__content{
+    display: flex;
+    gap: 53px;
+}
+
+.header__left-img{
+    background: url(../img/sarah-dorweiler-ALtNa-uKy3M-unsplash\ 1.png) no-repeat center/cover;
+    height: 600 px;
+}
+
+.header__right-title{
+    font-family: 'Raleway-ExtraBold';
+    font-size: 60px;
+    line-height: 77px;
+    color: #081800;
+    padding-bottom: 41px;
+}
+
+span{
+    color: #418A1C;
+    font-size: 80px;
+    line-height: 103px;
+}
+
+.header__right-subtitle{
+    font-family: 'Raleway-Bold';
+    font-size: 18px;
+    line-height: 29px;
+    color: #081800;
+    padding-bottom: 41px;
+}
+
+.header__price-title{
+    font-size: 43px;
+    line-height: 60px;
+    font-family: 'Raleway-Bold';
+    color: #418A1C;
+}
+
+.header__price-subtitle{
+    font-family: 'RaleWay-SemiBold';
+    font-size: 18px;
+    line-height: 29px;
+    padding-right: 20px;
+}
+
+.header__right-price{
+    display: flex;
+    padding-top: 74px;
+}
+
+.plant__content{
+    display: flex;
+    padding-bottom: 130px;
+}
+
+.plant__left-title{
+    font-family: 'Raleway-ExtraBold';
+    font-size: 57px;
+    line-height: 80px;
+    color: #081800;
+    padding: 125px 110px 60px 0;
+}
+
+.plant__left-img{
+    background: url(../img/sarah-dorweiler-ALtNa-uKy3M-unsplash\ 1.png);
+}
+
+.plant__right-img{
+    background: url(../img/sarah-dorweiler-ALtNa-uKy3M-unsplash\ 1.png);
+}
+
+.plant__right-subtitle{
+    font-family: 'RaleWay-SemiBold';
+    font-size: 18px;
+    line-height: 29px;
+    padding: 35px 0;
+}
+
+.plan__content-right{
+    padding: 125px 0 0;
+}
